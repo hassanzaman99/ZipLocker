@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ZipLocker</string>
+
+
+    <string-array name="color_options">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+    </string-array>
+
+    <string-array name="pattern_options">
+        <item>Straight</item>
+        <item>Curved</item>
+        <item>Zigzag</item>
+    </string-array>
+
+</resources>

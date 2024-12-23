@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Bottom layer: Rounded black background -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/black"/>
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+
+    <!-- Middle layer: Rounded darker gray with height -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/darker_gray"/>
+            <corners android:radius="30dp"/>
+            <size android:height="60dp"/>
+        </shape>
+    </item>
+
+    <!-- Top layer: Gradient background -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@color/d_color1"
+                android:centerColor="@color/d_color2"
+                android:endColor="@color/d_color3"
+                android:angle="45"/>
+            <corners android:radius="0dp"/>
+        </shape>
+    </item>
+</layer-list>
